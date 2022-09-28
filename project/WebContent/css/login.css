@@ -1,0 +1,109 @@
+@charset "UTF-8";
+body{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	clear:both;
+	margin:0 ;
+	width:100%;
+	height:100%;	
+}
+element.style {
+    height: 100%;
+}
+.content {
+    margin: 0 auto;
+}
+
+div {
+    display: block;
+}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ .quote{
+background-image:url(../images/login_img2.png); width:450px; height:763px;
+	
+	position:relative;
+	bottom:0;
+	left:0;
+	right:0;
+	margin: 0px auto;	
+	float:left;
+	display: block;
+	background-size: cover;
+	clear: both;
+	
+}
+.innerContainer{
+	
+	margin-right:80px;
+	 position: relative;
+	 overflow:auto;
+	 padding: 20px;
+}
+
+
+@media only screen and (min-width: 720px){
+.inner {
+    width: 70% !important;
+}
+}
+
+@media only screen and (min-width: 720px){
+.inner {
+    width: 428.8px;
+    margin: 0 auto;
+    margin-top: 50px;
+   
+    
+}
+}
+
+.headMessage h2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+h2 {
+    display: block;
+    
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 720px){
+.headMessage {
+    text-align: left;
+}
+}
+.headMessage {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#fieldset{
+	margin: 0 auto;
+}
+
+.login_text{
+	margin-top:30px; 
+}
+
+.divKakao{
+	margin-top: 50px;
+	
+}

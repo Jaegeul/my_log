@@ -1,0 +1,89 @@
+@charset "UTF-8";
+body{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	clear:both;
+	margin:0 ;
+	width:100%;
+	height:100%;
+	overflow:auto; 
+}
+element.style {
+    height: 100%;
+}
+.content {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 720px){}
+.innerContainer{
+	overflow:auto;
+	margin-left: 460px;
+	position: relative;
+	height: 100%;
+}
+}
+.innerContainer{
+	
+	margin-right:80px;
+	 position: relative;
+	 overflow:auto;
+	 padding: 20px;
+}
+ .quote{
+background-image:url(../images/member/login_img2.png); width:450px; height:763px;
+	
+	position:relative;
+	bottom:0;
+	left:0;
+	right:0;
+	margin: 0px auto;	
+	float:left;
+	display: block;
+	background-size: cover;
+	clear: both;
+	
+}
+h2 {
+    display: block;
+    
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;    
+}
+@media (min-width:720px;){
+	.headMessage{
+	text-align: left;
+	}
+	.headMessage{
+	margin-bottom: 30px;
+	margin-top: 20px;
+	}
+}
+
+div {
+    display: block;
+}
+#fieldset{
+	margin: 0 auto;
+}
+
+.login_text{
+	margin-top:30px; 
+}
+
+.divKakao{
+	margin-top: 50px;
+	
+}
+
