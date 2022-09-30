@@ -1,0 +1,8 @@
+메이븐 -> 프로젝트 업데이트 -> 프로포티즈 -> 자바 컴파일러 -> 1.8 -> Maven_Project Facets -> Java -> 1.8 
+WEB-INF -> lib폴더 생성 -> ojdbc8.jar 붙여넣기
+porm.xml -> 사용했던 porm.xml 소스 전체 복붙 -> 메이븐 프로젝트 업데이트 -> Run on server 실행 테스트
+home.jsp contentType 설정 
+기존 root-context.xml 복사 후 붙여넣기 ->  property 밸류 클래스 패스 경로 변경 -> 베이스 패키지 경로 변경
+기존 mybatis-config.xml 복사후  src/main/resources 에 붙여넣기 -> 기존 소스 지우기
+src/main/resources에 com.naver.mappers.mybatis 패키지 생성 -> bbs.xml 생성 -> 기존 xml 파일에서 매퍼태그 복사 붙여 넣기 -> 네임스페이스 변경
+src/main/java에 dao, vo, service 패키지 생성
