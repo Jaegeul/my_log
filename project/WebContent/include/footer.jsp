@@ -2,10 +2,10 @@
 	
 		<footer>
 			<div onclick="up()" id="up" class="up">
-				<img src="./images/arrow-up-circle.svg" width="40" height="40">
+				<img src="../images/arrow-up-circle.svg" width="40" height="40">
 			</div>
 			<div id="f_logo">
-				<a href="index.jsp"><img src="./images/Logo.png" width="80"
+				<a href="index.jsp"><img src="../images/Logo.png" width="80"
 					height="50" alt="bbalcha" /></a><br> 풋살이 마려울땐 뽈차!<br> <br>
 			</div>
 			<div id="copy">
@@ -17,13 +17,13 @@
 
 			<div id="social">
 				<a href="https://www.kakaocorp.com/page/service/service/KakaoTalk" />
-				<img src="./images/kakaotalk.png" width="33" height="33"
+				<img src="../images/kakaotalk.png" width="33" height="33"
 					alt="kakaotalk" /></a> <a href="https://www.instagram.com/" /><img
-					src="./images/instargram.png" width="33" height="34"
+					src="../images/instargram.png" width="33" height="34"
 					alt="instargram" /> </a> <a href="https://www.youtube.com/"><img
-					src="./images/youtube.png" width="33" height="33" alt="youtube" />
+					src="../images/youtube.png" width="33" height="33" alt="youtube" />
 				</a> <a href="https://www.facebook.com/" /><img
-					src="./images/facebook.png" width="33" height="33" alt="facebook" />
+					src="../images/facebook.png" width="33" height="33" alt="facebook" />
 				</a>
 			</div>
 		</footer>

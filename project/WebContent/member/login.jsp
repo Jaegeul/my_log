@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>  공차 로그인화면</title>
+<title>공차 로그인화면</title>
 <script src="https://kit.fontawesome.com/19265c8d35.js"
 	crossorigin="anonymous"></script>
 	
@@ -104,7 +104,7 @@
         <input type="hidden" name="csrfmiddlewaretoken" value="Nd2YOqhHxFVwnkwYXIi6qlCN64PTsdjRcP0mr6SWsCLexpSaECfaqDAR6OcDu8oy">
         <fieldset>
             
-           <div class="mb-3"  ">
+           <div class="mb-3">
   <label for="formGroupExampleInput" class="form-label">아이디</label>
   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="아이디 또는 이메일"  style="width:300px; height:30px;"/>
 </div>

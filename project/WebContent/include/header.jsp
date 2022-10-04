@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <title>공차 소셜매치</title>
 <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://kit.fontawesome.com/19265c8d35.js" crossorigin="anonymous"></script>
 <link
@@ -19,7 +19,7 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="./css/main.css" />
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
 <script
 	src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script type="text/javascript">
@@ -46,25 +46,25 @@
 		<header>
 			<div id="top">
 				<div id="h_logo">
-					<a href="index.jsp"><img src="./images/Logo.png" width="100"
+					<a href="../index.jsp"><img src="../images/Logo.png" width="100"
 						height="70" alt="bbalcha" /></a>
 				</div>
 				
 				<div id="mainTap">
-					<img id="search_img" src="./images/search.svg" width="24"
+					<img id="search_img" src="../images/search.svg" width="24"
 						height="24" />
 					<div id="search_bar">
-						<img src="./images/search.svg" width="24" height="24" /> <input
+						<img src="../images/search.svg" width="24" height="24" /> <input
 							id="searchTxt" type="search" placeholder="지역, 구장 이름으로 찾기"
 							maxlength="100" autocomplete="off" size="33" />
 					</div>
 					
 					<div id="join">
-						<a href="login.jsp"><img src="./images/my.svg"></a>
+						<a href="../member/login.jsp"><img src="../images/my.svg"></a>
 					</div>
 						
 					<div id="menu">
-						<img src="./images/three-dots.svg" width="30" height="23"
+						<img src="../images/three-dots.svg" width="30" height="23"
 							data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
 							aria-controls="offcanvasRight">
 
@@ -72,7 +72,7 @@
 							id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
 							<div class="offcanvas-header">
 								<h3 id="offcanvasRightLabel">
-									<a href="#">회사 소개</a>
+									<a href="../side_menu/company_introduction.jsp">회사 소개</a>
 								</h3>
 								<button type="button" class="btn-close text-reset"
 									data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -100,18 +100,18 @@
 			<div class="clear"></div>
 			<div id="nav">
 				<span id = "nav_a">
-					<a href="index.jsp" class="selected">소셜매치&nbsp;&nbsp;<img
-					src="./images/social.svg"></a>
+					<a href="../index.jsp" class="selected">소셜매치&nbsp;&nbsp;<img
+					src="../images/social.svg"></a>
 				</span>
 				
 				<span id = "nav_b">
-					<a href="rental.jsp" class="visit">구장예약&nbsp;&nbsp;<img
-					src="./images/reservation.svg"></a> 
+					<a href="../rental_tap/rental.jsp" class="visit">구장예약&nbsp;&nbsp;<img
+					src="../images/reservation.svg"></a> 
 				</span>
 				
 				<span id = "nav_c">
-					<a href="recruit.jsp" class="visit">용병모집&nbsp;&nbsp;<img
-					src="./images/personplus.svg"></a>
+					<a href="../recruit_tap/recruit.jsp" class="visit">용병모집&nbsp;&nbsp;<img
+					src="../images/personplus.svg"></a>
 				</span>
 			</div>
 

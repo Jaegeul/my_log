@@ -1,5 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ include file="../include/top.jsp" %>
+<link rel="stylesheet" type="text/css" href="../css/company_introduction.css" />
 
 <article>
  <div id="aboutWrap">

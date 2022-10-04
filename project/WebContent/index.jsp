@@ -60,7 +60,7 @@
 					</div>
 					
 					<div id="join">
-						<a href="login.jsp"><img src="./images/my.svg"></a>
+						<a href="./member/login.jsp"><img src="./images/my.svg"></a>
 					</div>
 						
 					<div id="menu">
@@ -105,12 +105,12 @@
 				</span>
 				
 				<span id = "nav_b">
-					<a href="rental.jsp" class="visit">구장예약&nbsp;&nbsp;<img
+					<a href="./rental_tap/rental.jsp" class="visit">구장예약&nbsp;&nbsp;<img
 					src="./images/reservation.svg"></a> 
 				</span>
 				
 				<span id = "nav_c">
-					<a href="recruit.jsp" class="visit">용병모집&nbsp;&nbsp;<img
+					<a href="./recruit_tap/recruit.jsp" class="visit">용병모집&nbsp;&nbsp;<img
 					src="./images/personplus.svg"></a>
 				</span>
 			</div>
